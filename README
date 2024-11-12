@@ -1,0 +1,13 @@
+2D Material Generator
+
+This is a Python application for generating simple 2D materials, specifically Graphene and hexagonal Boron Nitride (hBN). The application creates structures in customizable supercell sizes and exports them in CIF and VASP formats. It uses a graphical user interface (GUI) built with Tkinter, and integrates pymatgen and ASE libraries for material manipulation and visualization.
+Features
+
+    Generate graphene and hBN structures in various supercell sizes.
+    Save the structure in CIF and VASP file formats.
+    Visualize generated structures directly within the application using ASE.
+
+Requirements
+
+    Python 3.x
+    Libraries: tkinter, pymatgen, ase
